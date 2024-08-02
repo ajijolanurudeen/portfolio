@@ -14,6 +14,7 @@ export const ProjectCardData = [
 
     },
     
+    
     {
 
         title: "task manager",
@@ -26,4 +27,20 @@ export const ProjectCardData = [
         
         technologyStack: "NodeJs, Express, Mongoose, MongoDB, React"
     },
+
+
+    {
+
+        title: "Streaming Services",
+
+        id: 3,
+
+        link: "https://streaming-services-x3oy.vercel.app/",
+
+        description: "An app that displays an array of streaming devices.",
+        
+        technologyStack: "NodeJs, Express, Mongoose, MongoDB, React"
+    },
+
+
 ]
