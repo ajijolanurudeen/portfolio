@@ -1,0 +1,33 @@
+
+/* css for the hover effect */
+.service-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid transparent;
+}
+
+.service-card:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: #27ae60;
+    bottom: -12px;
+    right: 0px;
+    transition: ease-in-out 250ms;
+}
+
+.service-card:hover:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: #27ae60;
+    bottom: 0px;
+    right: 0px;
+}
+
+.service-card:hover{
+  border: 1px solid black;
+}
+
