@@ -9,3 +9,17 @@
 :root {
     font-family: "DM Sans", sans-serif;
 }
+
+/* For Chrome, Safari, Edge, and other WebKit browsers */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* i later found a use for it lmao */

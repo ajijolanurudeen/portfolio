@@ -4,7 +4,7 @@ import "./herosection.css"
 
 export default function HeroSection() {
     return (
-        <section className=' h-[95vh] min-h-[95vh]'>
+        <section className=' h-[80vh] min-h-[80vh] md:h-[95vh] md:min-h-[95vh]'>
             <div className='flex justify-between items-center  h-full'>
                 <div className='flex-1'>
                     <h1 className='lg:text-5xl text-4xl font-bold'>
@@ -18,7 +18,7 @@ export default function HeroSection() {
                         </a>
                     </div>
                 </div>
-                <div className='flex-1 max-w-[650px] w-[100%] rounded-[100%] border-[1px] border-grey aspect-square p-5 bg-[#181818]'>
+                <div className='flex-1 max-w-[650px] w-[100%] sm:block hidden rounded-[100%] border-[1px] border-grey aspect-square p-5 bg-[#181818]'>
                     <div className='rounded-full w-full h-full  overflow-hidden '>
                         <img className='rounded-full nurudeen' src={Nurudeen} alt="Nurudeen Ajijola" />
                     </div>

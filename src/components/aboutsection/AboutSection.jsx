@@ -11,7 +11,7 @@ export default function AboutSection() {
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                 Excepteur sint occaecat cupidatat non proident
             </p>
-            <div className='about-section-contact-info flex justify-between max-w-sm mx-auto mt-[45px]'>
+            <div className='about-section-contact-info flex justify-between max-w-[250px] sm:max-w-sm mx-auto mt-[45px]'>
                 {AboutSectionData.map((info) =>
                     <AboutSectionInfo data={info} key={info.id} />
                 )}
