@@ -8,7 +8,7 @@ import Contact from "./components/contact/Contact.jsx"
 
 export default function App() {
   return (
-    <main className="bg-black pb-5">
+    <main className="bg-black pb-[6rem]">
       <div className="container mx-auto text-white px-[20px]">
         <Navbar />
         <HeroSection/>

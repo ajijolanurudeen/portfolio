@@ -11,6 +11,7 @@ export default function AboutSectionInfo(props) {
           alt={`${socialContact} Logo`}
         />
       </div>
+      {/* if its an email, it has a diffent value for the href attribute and vice versa */}
       <a
         href={linkType === "Email" ? "mailto:" + link : link}
         target='_blank'

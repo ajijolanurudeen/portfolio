@@ -4,7 +4,7 @@ import AboutSectionInfo from './AboutSectionInfo.jsx'
 
 export default function AboutSection() {
     return (
-        <section>
+        <section id='1'>
             <h2 className='lg:text-5xl text-4xl font-bold text-center mb-[45px]'>About</h2>
             <p className='mx-auto text-center text-md lg:text-lg max-w-[745px]'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -19,3 +19,5 @@ export default function AboutSection() {
         </section>
     )
 }
+
+//the about me is lorem  ipsum so you go obviously edit am

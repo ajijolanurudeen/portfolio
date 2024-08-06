@@ -13,7 +13,7 @@ export default function HeroSection() {
                     </h1>
                     <p className='text-light-grey text-md lg:text-lg font-bold mt-[9px]'>Frontend Developer</p>
                     <div className="call-to-action mt-[35px]">
-                        <a href="../../assets/resume/CV AJIJOLA NURUDEEN (1).pdf" className='bg-green py-[12px] px-[27px] text-sm' download>
+                        <a href="../../assets/resume/CV AJIJOLA NURUDEEN (1).pdf" className='bg-green py-[12px] px-[27px] text-sm hover:bg-transparent hover:border-white border border-transparent cursor-pointer transition-all' download>
                             Download CV
                         </a>
                     </div>

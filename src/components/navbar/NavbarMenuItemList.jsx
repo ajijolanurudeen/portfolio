@@ -1,8 +1,8 @@
 import React from 'react'
 
 export default function NavbarMenuItemList(props) {
-    const { menuItem } = props.data;
+    const { menuItem, id } = props.data;
     return (
-        <li>{menuItem}</li>
+        <a href={id} className='hover:scale-110 transition-all'><li>{menuItem}</li></a>
     )
 }

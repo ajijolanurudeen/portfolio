@@ -36,8 +36,7 @@ export default function Navbar() {
 
 
     return (
-        <nav className= {`flex items-center justify-between py-[15px] md:py-[28px] sm:border-none relative ${!isChecked ? "border-b-2 border-light-grey": ""}`}>
-
+        <nav className={`flex items-center justify-between py-[15px] md:py-[28px] sm:border-none relative ${!isChecked ? "border-b-2 border-light-grey" : ""}`}>
 
             <div className="nav-logo text-2xl lg:text-3xl font-bold">
                 Ajijola Nurudeen
@@ -54,13 +53,13 @@ export default function Navbar() {
             {/* navitems for mobile view */}
             <ul className={`gap-[20px] text-lg ${isChecked ? 'max-h-[500px] border-b-2 border-light-grey pb-7' : 'max-h-0'} transition-all  overflow-hidden font-medium sm:hidden flex flex-col w-full absolute items-center top-[90px] `}>
                 {NavbarMenuItemData.map((NavItem) =>
-                    <NavbarMenuItemList data={NavItem} key={NavItem.id} />  
+                    <NavbarMenuItemList data={NavItem} key={NavItem.id} />
                 )}
             </ul>
 
             {/* hamburger menu button */}
             <div className="hamburger sm:hidden">
-
+                {/* the hamburger button works by using a checkbox that's why the chekbox has an onchange function */}
                 <input
                     className="checkbox"
                     type="checkbox"

@@ -44,3 +44,5 @@ export const ProjectCardData = [
 
 
 ]
+
+//if you want to add more projects, just come here and do it by adding more objects in the above array sha
