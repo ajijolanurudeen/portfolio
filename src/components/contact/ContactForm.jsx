@@ -11,7 +11,7 @@ export default function ContactForm() {
                     type="text"
                     placeholder='name'
                     name="Name"
-                    className='bg-transparent  border-b border-light-grey outline-none placeholder:text-light-grey placeholder:text-sm md:max-w-[350px] w-[100%] p-2 text-sm min-w-0'
+                    className='bg-transparent  border-b border-light-grey outline-none placeholder:text-light-grey placeholder:text-sm md:max-w-[350px] w-[100%] py-2 text-sm min-w-0  md:mt-0'
                     required
                 />
 
@@ -20,7 +20,7 @@ export default function ContactForm() {
                     type="text"
                     placeholder='last name'
                     name="Last_Name"
-                    className='bg-transparent  border-b border-light-grey outline-none placeholder:text-light-grey placeholder:text-sm md:max-w-[350px] w-[100%] p-2 text-sm min-w-0'
+                    className='bg-transparent  border-b border-light-grey outline-none placeholder:text-light-grey placeholder:text-sm md:max-w-[350px] w-[100%] py-2 text-sm min-w-0 mt-2 md:mt-0'
                     required
                 />
 
@@ -31,7 +31,7 @@ export default function ContactForm() {
                     type="email"
                     placeholder='email'
                     name="email"
-                    className='bg-transparent  border-b border-light-grey outline-none placeholder:text-light-grey placeholder:text-sm md:max-w-[350px] w-[100%] p-2 text-sm min-w-0'
+                    className='bg-transparent  border-b border-light-grey outline-none placeholder:text-light-grey placeholder:text-sm md:max-w-[350px] w-[100%] py-2 text-sm min-w-0 mt-2 md:mt-0'
                     required
                 />
 
@@ -39,7 +39,7 @@ export default function ContactForm() {
                     type="number"
                     placeholder='phone number'
                     name="Phone_Number"
-                    className='bg-transparent  border-b border-light-grey outline-none placeholder:text-light-grey placeholder:text-sm md:max-w-[350px] w-[100%] p-2 text-sm min-w-0'
+                    className='bg-transparent  border-b border-light-grey outline-none placeholder:text-light-grey placeholder:text-sm md:max-w-[350px] w-[100%] py-2 text-sm min-w-0 mt-2 md:mt-0'
                 />
 
             </div>
@@ -48,7 +48,7 @@ export default function ContactForm() {
                 name="Message"
                 placeholder='send a message...'
                 className='bg-transparent border border-light-grey outline-none w-full placeholder:text-light-grey placeholder:text-sm p-2'
-                rows='10'
+                rows='5'
             >
 
             </textarea>
