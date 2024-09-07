@@ -13,7 +13,7 @@ export default function Projects() {
 
   // setVisible((prevValue) => prevValue + 3)
 
-  const [visible, setVisible] = useState(2)
+  const [visible, setVisible] = useState(3)
 
 
   //this function uses the previous value as reference for a new value

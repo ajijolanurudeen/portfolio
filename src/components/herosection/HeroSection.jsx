@@ -11,7 +11,7 @@ export default function HeroSection() {
                         Hi, I am
                         <span className='sm:block mt-4'> Ajijola Nurudeen</span>
                     </h1>
-                    <p className='text-light-grey text-md lg:text-lg font-bold mt-[9px]'>Frontend Developer</p>
+                    <p className='text-light-grey text-md lg:text-lg font-bold mt-[9px]'>Backend Developer</p>
                     <div className="call-to-action mt-[20px] sm:mt-[35px]">
                         <a href="../../assets/resume/CV AJIJOLA NURUDEEN (1).pdf" className='bg-green py-[12px] px-[27px] text-sm hover:bg-transparent hover:border-white border border-transparent cursor-pointer transition-all' download>
                             Download CV

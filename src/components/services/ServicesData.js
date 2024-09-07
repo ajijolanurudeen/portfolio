@@ -12,12 +12,12 @@ export const ServicesData = [
     },
     {
         image: webDevelopmentImage,
-        title: "web",
+        title: "backend",
         id:2
     },
     {
         image: backendImage,
-        title: "backend",
+        title: "cloud",
         id:3
     },
 ]
